@@ -1,0 +1,39 @@
+name: shopping_list_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.2
+  supabase_flutter: 2.8.3 # Make sure this is the latest stable version
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.5
+  google_fonts: 4.0.4
+  cupertino_icons: ^1.0.8
+  local_auth: ^2.3.0
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  font_awesome_flutter: ^10.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  assets:
+    - assets/
+
+ 
+
+  uses-material-design: true
